@@ -1,0 +1,109 @@
+.project-container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,gray,white);
+}
+.project-title{
+    font-size: 30px;
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.project-topic{
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 25px;
+    color: black;
+}
+.project-side{
+    position: relative;
+    top: 70px;
+}
+.project-slide{
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 25px;
+}
+.project-slide:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.project-tit{
+    font-size: 25px;
+    font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-style: italic;
+    padding: 35px 0px 0px 0px;
+}
+.project-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.project-font{
+    text-align: justify;
+    padding: 10px 20px 20px 20px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.iframe-style{
+    height: 200px;
+    width: 200px;
+}
+@media screen and (max-width:400px){
+    .project-container{
+        height: auto;
+        width: 100%;
+        background: linear-gradient(45deg,gray,white);
+    }
+    .project-topic{
+        color: black;
+    }
+    .project-title{
+        font-size: 30px;
+        color: black;
+    }
+    .project-side{
+        position: relative;
+        top: 50px;
+    }
+    .project-slide{
+        height: 440px;
+        width: 350px;
+        background-color: white;
+        text-align: center;
+        transition: transform 0.2s ease-in-out;
+       border-radius: 25px;
+       margin-bottom: 50px;
+    }
+    .project-slide:hover{
+        transform: scale(1.05);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .project-flex{
+        flex-direction: row;
+        position: relative;
+        bottom: 25px;
+    }
+    .project-font{
+        text-align: justify;
+        padding: 0px 20px 10px;
+        font-size: 15px;
+    }
+    .project-tit{
+        font-size: 20px;
+        padding: 20px 0px 0px 0px;
+    }
+    .iframe-style{
+        height: 170px;
+        width: 250px;
+    }
+}

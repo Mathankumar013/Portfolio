@@ -1,0 +1,97 @@
+.visionary-display{
+    height: 100vh;
+    width: 100%;
+    background-color: lightpink;
+}
+.visionary-topic{
+    position: relative;
+    top: 80px;
+}
+.visionary-a{
+    font-size: 22px;
+    color: black;
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.visionary-b{
+    font-size: 25px;
+    color: black;
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.visionay-card{
+    height: 230px;
+    width: 800px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    left:350px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 20px;
+}
+.visionay-card:hover{
+    transform: scale(1.05);
+    box-shadow: violet 0px 3px 6px,violet 0px 3px 6px;
+}
+.visionary-title{
+    padding: 20px 0px 0px 20px;
+    font-size: 25px;
+    font-family: "Satisfy", serif;
+  font-weight: 500;
+  font-style: normal;
+    color: blueviolet;
+}
+.visionary-paragraph{
+    text-align: justify;
+    padding: 10px 20px 0px 20px;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+@media screen and (max-width:400px){
+    .visionary-display{
+        height: 1000px;
+        width: 100%;
+        background-color: lightpink;
+    }
+    .visionary-topic{
+        position: relative;
+        top: 40px;
+    }
+    .visionary-a{
+        font-size: 20px;
+        color: black;
+    }
+    .visionary-b{
+        font-size: 21px;
+        color: black;
+    }
+    .visionay-card{
+        height: 360px;
+        width: 350px;
+        background-color: white;
+        position: relative;
+        top: 70px;
+        left: 20px;
+        margin-bottom: 30px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .visionay-card:hover{
+        transform: scale(1.05);
+        box-shadow: violet 0px 3px 6px,violet 0px 3px 6px;
+    }
+    .visionary-title{
+        padding: 20px 0px 0px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        color: blueviolet;
+    }
+    .visionary-paragraph{
+        text-align: justify;
+        padding: 10px 20px 0px 20px;
+        font-size: 15px;
+    }
+}

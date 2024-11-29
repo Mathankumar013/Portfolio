@@ -1,0 +1,133 @@
+.skill-display{
+    height: 100vh;
+    width: 100%;
+    background-color: lightcoral;
+}
+.skill-title{
+    font-size: 20px;
+    color: white;
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.skill-topic{
+    color: black;
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.skill-side{
+    position: relative;
+    top: 70px;
+}
+.skill-style{
+    height: 200px;
+    width: 900px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.skill-a{
+    position: relative;
+    top: 20px;
+    height: 120px;
+    width: 85px;
+    transition: transform 0.2s ease-in-out;
+}
+.skill-a:hover{
+    transform: scale(1.25);
+}
+.style-font{
+    position: relative;
+    top: 20px;
+    padding: 0px 0px 0px 50px;
+    margin-bottom: 15px;
+    font-family: "Sriracha", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.skill-b{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card-image{
+    height: 80px;
+    width: 80px;
+}
+.card-title{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0px 0px 0px ;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+@media screen and (max-width:400px){
+    .skill-display{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        height: 800px;
+        width: 100%;
+        background-color: lightcoral;
+    }
+    .skill-title{
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+    }
+    .skill-topic{
+        color: black;
+    }
+    .skill-side{
+        position: relative;
+        top: 50px;
+    }
+    .skill-style{
+        height: 290px;
+        width: 370px;
+        background-color: white;
+        position: relative;
+        top: 60px;
+        left: 15px;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        border: 2px solid black;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .skill-a{
+        position: relative;
+        top: 20px;
+        left: 20px;
+        height: 80px;
+        width: 85px;
+        transition: transform 0.2s ease-in-out;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .skill-a:hover{
+        transform: scale(1.25);
+    }
+    .style-font{
+        position: relative;
+        top: 20px;
+        padding: 0px 0px 0px 20px;
+    }
+    .card-image{
+        height: 50px;
+        width: 50px;
+        padding: 0px 0px 0px 10px;
+    }
+    .card-title{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 30px 0px 0px ;
+    }
+}

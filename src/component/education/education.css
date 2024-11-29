@@ -1,0 +1,135 @@
+.education-display{
+    height: 100vh;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+.education-title{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+.education-a{
+    font-size: 23px;
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.education-b{
+    font-size: 25px;
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.eduction-details{
+    height: 450px;
+    width: 350px;
+    background-color: lightblue;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+.edu-name{
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    font-size: 15px;
+    font-family: "Sriracha", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.eduction-details:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.education-c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.edu-des{
+    font-size: 15px;
+    text-align: justify;
+    padding: 20px;
+     font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.edu{
+    font-family: "Sriracha", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.edu-grade{
+    font-family: "Sriracha", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.edu-std{
+    font-family: "Sriracha", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+@media screen and (max-width:400px){
+    .education-display{
+        height: auto;
+        width: 100%;
+        background-color: lightgoldenrodyellow;
+    }
+    .education-title{
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+    .education-a{
+        font-size: 20px;
+    }
+    .education-b{
+        font-size: 21px;
+    }
+    .eduction-details{
+        height: 420px;
+        width: 350px;
+        background-color: lightblue;
+        position: relative;
+        top:30px;
+        transition: transform 0.2s ease-in-out;
+        border-radius: 25px;
+        border: 2px solid black;
+        margin-bottom: 50px;
+    }
+    .edu-name{
+        text-align: center;
+        padding: 20px 20px 0px 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .eduction-details:hover{
+        transform: scale(1.05);
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    .edu-des{
+        font-size: 15px;
+        text-align: justify;
+        padding: 10px 20px 0px 20px;
+    }
+    .edu{
+        font-size: 15px;
+        font-family: "Sriracha", serif;
+  font-weight: 500;
+  font-style: normal;
+    }
+    .edu-std{
+        font-size: 15px;
+        font-family: "Sriracha", serif;
+  font-weight: 500;
+  font-style: normal;
+    }
+    .edu-grade{
+        font-size: 15px;
+        font-family: "Sriracha", serif;
+  font-weight: 500;
+  font-style: normal;
+    }
+}

@@ -1,0 +1,89 @@
+.navbar-style{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-menu .nav-link{
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+.nav-link{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.nav-link:hover{
+    color: orange;
+}
+.navbar-menu .nav-link:hover{
+    color: orange;
+}
+.btn-style{
+    padding: 10px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: orange;
+}
+.btn-style:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.btn-hide{
+    display: none;
+}
+@media screen and (max-width:400px){
+    .navbar-menu .nav-link{
+        display: none;
+    }
+    .navbar-brand{
+        font-size: 30px;
+        font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    .btn-style{
+        display: none;
+    }
+    .btn-hide{
+        display: block;
+    }
+    .nav-link{
+        display: none;
+    }
+    .canvas-icon{
+        display: flex;
+        font-size: 30px;
+        gap: 20px;
+    }
+    .canvas-menu{
+        text-decoration: none;
+        color: black;
+    }
+    .canvas-menu:hover{
+        color: orange;
+    }
+    .canvas-title{
+        text-decoration: none;
+        color: black;
+        position: relative;
+        right: 20px;
+    }
+    hr{
+        position: relative;
+        right: 20px;
+    }
+    .canvas-title:hover{
+        color: orange;
+    }
+}

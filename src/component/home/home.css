@@ -1,0 +1,106 @@
+.home-style{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(160, 205, 233);
+}
+.home-display{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    flex-wrap: wrap;
+}
+.home-a{
+    font-size: 30px;
+    font-family: "Sriracha", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.home-topic{
+    font-size: 45px;
+    font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: blue;
+}
+.home-c{
+    position: relative;
+    top: 100px;
+}
+.home-b{
+    margin-top: 20px;
+    width: 600px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.btn-resume{
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: orange;
+    font-family: "Sriracha", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.image-style{
+    position: relative;
+    top: 50px;
+}
+@media screen and (max-width:400px){
+    .home-style{
+        height: 700px;
+        width: 100%;
+        background-color: rgb(160, 205, 233);
+    }
+    .home-display{
+       position: relative;
+       top: 10px;
+    }
+    .home-a{
+        font-size: 25px;
+        font-family: "Sriracha", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    .home-topic{
+        font-size: 40px;
+        font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: normal;
+        color: blue;
+    }
+    .home-b{
+        margin-top: 20px;
+        width: 330px;
+        text-align: justify;
+        font-size: 15px;
+        font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+    }
+    .home-c{
+        position: relative;
+        top: 70px;
+    }
+    .image-style{
+        position: relative;
+        top: 100px;
+        left: 0;
+        height: 200px;
+        width: 200px;
+        margin-bottom: 130px;
+    }
+    .btn-resume{
+        margin-top: 20px;
+        padding: 10px;
+        width: 200px;
+        font-size: 20px;
+        border-radius: 25px;
+        background-color: orange;
+    }
+}
