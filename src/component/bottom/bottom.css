@@ -33,7 +33,7 @@
 }
 @media screen and (max-width:400px){
     .bottom-display{
-        height: 200px;
+        height: 230px;
         width: 100%;
         background-color: lightgray;
     }
