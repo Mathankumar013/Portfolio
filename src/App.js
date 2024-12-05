@@ -9,7 +9,7 @@ import Education from './component/education/education';
 import Visionary from './component/visionary/visionary';
 import Project from './component/project/project';
 import Contact from './component/contact/contact';
-
+import Bottom from './component/bottom/bottom';
 function App() {
   return (
     <>
@@ -22,6 +22,7 @@ function App() {
       <Visionary/>
       <Education/>
       <Contact/>
+    <Bottom/>
     </div>
     </div>
     </>
